@@ -1,0 +1,25 @@
+body {
+    background-image: url("../images/renga.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.food ul{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 10%;
+    list-style: none;
+}
+
+.food li{
+    margin: 5%;
+    height: 400px;
+    width: 305
+}
+
+.food li img{
+    height: 100%;
+    width: 100%;
+}
