@@ -101,11 +101,17 @@ width: 100%;
 
 #catch1{
 
-margin: 0px;
-font-size: 25px;
-padding-left: 260px;
-text-align: center;
-font-family: "ヒラギノ丸ゴ Pron";
-position: absolute;
-top: 470px;
+    margin: 0px;
+    font-size: 25px;
+    padding-left: 260px;
+    text-align: center;
+    font-family: "ヒラギノ丸ゴ Pron";
+    position: absolute;
+    top: 470px;
+}
+
+.main{
+
+    padding: 20px;              /* 余白指定 */
+    text-align:  center;        /* 中央寄せ */
 }
