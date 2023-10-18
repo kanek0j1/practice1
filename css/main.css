@@ -125,22 +125,22 @@ width: 100%;
 }
 
 .box:before,.box::after{
-    content:'hh';
+    content:'';
     position:absolute;
-    width: 1000px;
-    height: 1000px;
+    width: 10px;
+    height: 10px;
     border: solid 2px #ffcb8a;
     border-radius: 50%;
 }
 
 .box:before{
-    top:0px;
-    left:0px;
+    top:800px;
+    left:65px;
 }
 
 .box:after{
-    top:0px;
-    left:0px;
+    top:1260px;
+    left:1360px;
 }
 
 .box h3{
