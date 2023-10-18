@@ -115,3 +115,40 @@ width: 100%;
     padding: 20px;              /* 余白指定 */
     text-align:  center;        /* 中央寄せ */
 }
+
+.box{
+    margin:4%;
+    padding: 10px;
+    display:flex;
+    border: solid 2px #ffcb8a;
+
+}
+
+.box:before,.box::after{
+    content:'hh';
+    position:absolute;
+    width: 1000px;
+    height: 1000px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+
+.box:before{
+    top:0px;
+    left:0px;
+}
+
+.box:after{
+    top:0px;
+    left:0px;
+}
+
+.box h3{
+    padding-left:5%;
+    line-height: 2.5;
+    
+}
+
+.chizu{
+    display:flex;
+}
