@@ -75,10 +75,6 @@ nav ul li a:hover {
     color:rgb(255,255,255)
 } 
 
-.catchcopy h2{
-
-}
-
 .catchcopy img{
 width: 100%;
 }
@@ -111,9 +107,13 @@ width: 100%;
 }
 
 .main{
-
     padding: 20px;              /* 余白指定 */
     text-align:  center;        /* 中央寄せ */
+}
+
+.kodawari{
+    font-size: 40px;
+    font-family: "BIZ UDMincho";
 }
 
 .box{
@@ -121,34 +121,82 @@ width: 100%;
     padding: 10px;
     display:flex;
     border: solid 2px #ffcb8a;
+    background-color: rgba(0, 0, 0, 0.5);
 
-}
-
-.box:before,.box::after{
-    content:'';
-    position:absolute;
-    width: 10px;
-    height: 10px;
-    border: solid 2px #ffcb8a;
-    border-radius: 50%;
-}
-
-.box:before{
-    top:800px;
-    left:65px;
-}
-
-.box:after{
-    top:1260px;
-    left:1360px;
 }
 
 .box h3{
-    padding-left:5%;
+    margin-top: 7%;
+    padding-left:3%;
+    padding-right:5%;
     line-height: 2.5;
     
 }
 
-.chizu{
+.box img{
+    height:400px;
+}
+
+.box2{
+    margin:4%;
+    padding: 10px;
     display:flex;
+    text-align:center;
+    border: solid 2px #ffcb8a;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.box2 h3{
+    margin-top: 7%;
+    padding-right:5%;
+    line-height: 2.5;
+
+}
+
+.box2 img{
+    height:400px;
+}
+
+.when{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.when ol{
+    list-style-type: none;
+}
+
+.chizu{
+    background-color: rgba(0, 0, 0, 0.4);
+    display:flex;
+    padding: 3%;
+    margin: 5%;
+    text-align: left;
+}
+
+.chizu h4{
+    font-size: 20px;
+    margin-top: 7%;
+    padding-left:5%;
+    line-height: 2.5;
+}
+
+.chizu img{
+    height: 400px;
+}
+
+footer{
+    padding-top:3%;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+footer h3{
+    margin:0%;
+}
+
+footer img{
+    height: 200px;
 }
